@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.recaptcha {
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    width: fit-content;
+}
+
+.recaptcha > input {
+    width: 24px;
+    aspect-ratio: 1/1;
+}
+
+.recaptcha > div {
+    margin-top: 4px;
+}
+
+.recaptcha > div > span {
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.recaptcha > img {
+    margin-left: 30px;
+}
